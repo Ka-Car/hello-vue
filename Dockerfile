@@ -5,4 +5,4 @@ RUN npm install --only=production
 COPY dist ./dist
 COPY server.js ./
 EXPOSE 8011
-CMD ["npm","server-start"]
+CMD ["npm","start"]
